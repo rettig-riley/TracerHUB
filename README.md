@@ -27,7 +27,7 @@ The testing suite for TracerHUB uses `stress-ng` which can stress test a compute
 
 ## Project Plan Doc and Report
 [Project Plan](https://docs.google.com/document/d/1m515Nw4eMbzAe_IRtGPI7Tsc2IxqgZmeS3syLrxZfGw/edit?usp=sharing)\
-[Project Report](https://docs.google.com/document/d/1QnP_kbWKN9DDC07Vjua3YV-S5r8R-zYPBmBF6rMUYqY/edit?usp=sharing)\
+[Project Report](https://docs.google.com/document/d/1QnP_kbWKN9DDC07Vjua3YV-S5r8R-zYPBmBF6rMUYqY/edit?usp=sharing)
 
 ## Bugs and To-Do
 Still need to finish implementing TCP and driver
