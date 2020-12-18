@@ -25,5 +25,9 @@ Tracks counts of TCP-relevent system calls including `socket()`, `bind()`, `list
 ## Performance Testing
 The testing suite for TracerHUB uses `stress-ng` which can stress test a computer system in a controlled way, allowing you to pick which components are stressed. See [here](https://manpages.ubuntu.com/manpages/artful/man1/stress-ng.1.html) for documentation. I have set up a few shell scripts running these `stress-ng` commands, which can be found in the Tests directory. All tests can be run by running `performance.py`. Output will be written to `performance.txt` which will demonstate overhead of bcc scripts.
 
+## Project Plan Doc and Report
+[Project Plan](https://docs.google.com/document/d/1m515Nw4eMbzAe_IRtGPI7Tsc2IxqgZmeS3syLrxZfGw/edit?usp=sharing)\
+[Project Report](https://docs.google.com/document/d/1QnP_kbWKN9DDC07Vjua3YV-S5r8R-zYPBmBF6rMUYqY/edit?usp=sharing)\
+
 ## Bugs and To-Do
 Still need to finish implementing TCP and driver
