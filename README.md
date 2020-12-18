@@ -20,7 +20,7 @@ I have based this roughly off of the `biolatency.py` tool, but more simplistic. 
 ## TCP System Call Tracing
 TO-DO\
 Tracks counts of TCP-relevent system calls including `socket()`, `bind()`, `listen()`, `accept()`, `send()`, and `receive()`\
-![TCP System Call Diagram From IMB](https://developer.ibm.com/developer/default/articles/au-tcpsystemcalls/images/Layers.gif)
+[TCP System Calls From IMB](https://developer.ibm.com/technologies/systems/articles/au-tcpsystemcalls/)
 
 ## Performance Testing
 The testing suite for TracerHUB uses `stress-ng` which can stress test a computer system in a controlled way, allowing you to pick which components are stressed. See [here](https://manpages.ubuntu.com/manpages/artful/man1/stress-ng.1.html) for documentation. I have set up a few shell scripts running these `stress-ng` commands, which can be found in the Tests directory. All tests can be run by running `performance.py`. Output will be written to `performance.txt` which will demonstate overhead of bcc scripts.
